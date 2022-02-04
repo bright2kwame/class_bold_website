@@ -1,0 +1,60 @@
+body {
+	background-color: #FFFFFF;
+}
+.topBar {
+	height: 100px;
+}
+.topBarLeft {
+	float: left;
+}
+.topBarRight{
+	float: right;
+}
+ul li {
+  display: inline;
+  padding-right: 16px;
+  padding-left: 16px;
+  color: #313131;
+}
+.topBar .topBarLeft ul .logo {
+	font-size: 32px;
+	font-weight: bold;
+	color: #000000;
+}
+.mainContent {
+	padding: 64px;
+	height: 600px;
+}
+.leftSide {
+	width: 60%;
+	float: left;
+	height: 100%;
+	padding-top: 100px;
+}
+.rightSide{
+	width: 40%;
+	float: right;
+	height: 100%;
+}
+.rightSide  img {
+  height: 600px;
+  width:700px;
+}
+.btn {
+	padding-top: 16px;
+	padding-left: 32px;
+	padding-right: 32px;
+	padding-bottom: 16px; 
+	border-width: 0px;
+	border-radius: 5px;
+}
+.blueButton {
+	background-color: #1E27CE;
+	color: #FFFFFF;
+}
+.whiteButton {
+	border-width: 1px;
+	background-color: #FFFFFF;
+	color: #1E27CE;
+	border-color: #1E27CE;
+}
